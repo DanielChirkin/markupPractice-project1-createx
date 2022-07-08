@@ -1,10 +1,41 @@
 {
+  "name": "markup-practice-project1-createx",
+  "version": "1.0.0",
+  "description": "Markup Practice",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --mode production",
+    "dev": "cross-env NODE_ENV=development webpack --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielChirkin/markupPractice-project1-createx.git"
+  },
+  "keywords": [
+    "DanielChirkin"
+  ],
+  "author": "Daniel Chirkin <nickobalick22@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielChirkin/markupPractice-project1-createx/issues"
+  },
+  "homepage": "https://github.com/DanielChirkin/markupPractice-project1-createx#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "file-loader": "^6.2.0",
+    "html-loader": "^3.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  },
   "dependencies": {
     "@fancyapps/ui": "^4.0.27",
     "jquery": "^3.6.0",
+    "mixitup": "^3.3.1",
     "slick-carousel": "^1.8.1"
-  },
-  "devDependencies": {
-    "mixitup": "^3.3.1"
   }
 }
