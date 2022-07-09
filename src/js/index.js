@@ -109,6 +109,8 @@ $(function() {
   let TopScrollState = false
 
   setInterval(() => {
+    if( $('.header').hasClass('header--open') ) return
+
     if ( TopScrollState === false && $(window).scrollTop() > 1 ) {
       $('[data-header-burger]').addClass('header__burger--follow')
 
