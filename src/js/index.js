@@ -50,16 +50,14 @@ function overlayOff(overlay) {
   }, 299 )
 }
 
-initMap()
+// google map
+// const API_KEY = 'AIzaSyCZ49G-nevAuJzgoA3da1LPOz8Gr7PLl3Y'
+// window.API_KEY = API_KEY
+
+// initMap()
+window.initMap = initMap
 
 $(function() {
-  // google map
-  // const API_KEY = 'AIzaSyCZ49G-nevAuJzgoA3da1LPOz8Gr7PLl3Y'
-  // window.API_KEY = API_KEY
-  // window.initMap = initMap
-
-  
-  
   // smooth scrolling
   $('a[href^=\\#]').on('click', function(event){     
     event.preventDefault()
