@@ -1656,8 +1656,20 @@ textarea.contact-form__form-input {
   }
   .testim__slider-card-wrapper {
     padding: 50px 0px;
+  }
+  
 }
+/* ----------------- 1200 ---------------- */
+@media (max-width: 1200px) {
+  /* team */
+  .slick-track {
+    margin: 0 -5px;
+  }
+  .slick-slide {
+    margin: 0 5px;
+  }
 }
+
 /* ----------------- 1175 ---------------- */
 @media (max-width: 1175px) {
   /*  companies */
@@ -2106,6 +2118,19 @@ textarea.contact-form__form-input {
     position: static;
     margin-bottom: 10px;
   }
+}
+/* ----------------- 410 ---------------- */
+@media (max-width: 410px) {
+  /* team */
+  .slick-track {
+    margin: 0 -5px;
+  }
+  .slick-slide {
+    margin: 0 5px;
+  }
+  /* .team__card-box-item {
+    margin: 0 30px;
+  } */
 }
 /* ----------------- 410 ---------------- */
 @media (max-width: 410px) {
